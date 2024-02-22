@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
     "content-hash": "09728fd59d210aee05f72162ab39aaa0",
-=======
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
     "packages": [
         {
             "name": "brick/math",
@@ -135,7 +131,6 @@
             "time": "2023-12-11T17:09:12+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "darkaonline/l5-swagger",
             "version": "8.5.2",
             "source": {
@@ -216,8 +211,6 @@
             "time": "2023-12-12T09:53:16+00:00"
         },
         {
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
             "name": "dflydev/dot-access-data",
             "version": "v3.0.2",
             "source": {
@@ -293,7 +286,6 @@
             "time": "2022-10-27T11:44:00+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "doctrine/annotations",
             "version": "2.0.1",
             "source": {
@@ -370,8 +362,6 @@
             "time": "2023-02-02T22:02:53+00:00"
         },
         {
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
             "name": "doctrine/inflector",
             "version": "2.0.10",
             "source": {
@@ -1667,7 +1657,6 @@
             "time": "2024-01-04T16:10:04+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "laravel/ui",
             "version": "v4.4.0",
             "source": {
@@ -1730,8 +1719,6 @@
             "time": "2024-01-12T15:56:45+00:00"
         },
         {
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
             "name": "league/commonmark",
             "version": "2.4.2",
             "source": {
@@ -2701,7 +2688,6 @@
             "time": "2023-11-12T21:59:55+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "psr/cache",
             "version": "3.0.0",
             "source": {
@@ -2751,8 +2737,6 @@
             "time": "2021-02-03T23:26:27+00:00"
         },
         {
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -3469,7 +3453,6 @@
             "time": "2023-11-08T05:53:05+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "swagger-api/swagger-ui",
             "version": "v5.11.7",
             "source": {
@@ -3531,8 +3514,6 @@
             "time": "2024-02-16T09:37:18+00:00"
         },
         {
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
             "name": "symfony/console",
             "version": "v6.4.3",
             "source": {
@@ -5763,7 +5744,6 @@
             "time": "2024-01-23T14:53:30+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "symfony/yaml",
             "version": "v7.0.3",
             "source": {
@@ -5835,8 +5815,6 @@
             "time": "2024-01-23T15:02:46+00:00"
         },
         {
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "v2.2.7",
             "source": {
@@ -6104,7 +6082,6 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
-<<<<<<< HEAD
         },
         {
             "name": "zircote/swagger-php",
@@ -6186,8 +6163,6 @@
                 "source": "https://github.com/zircote/swagger-php/tree/4.8.4"
             },
             "time": "2024-02-04T21:16:47+00:00"
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
         }
     ],
     "packages-dev": [
@@ -8497,80 +8472,6 @@
             "time": "2024-02-09T16:08:40+00:00"
         },
         {
-<<<<<<< HEAD
-=======
-            "name": "symfony/yaml",
-            "version": "v7.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "2d4fca631c00700597e9442a0b2451ce234513d3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/2d4fca631c00700597e9442a0b2451ce234513d3",
-                "reference": "2d4fca631c00700597e9442a0b2451ce234513d3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "symfony/polyfill-ctype": "^1.8"
-            },
-            "conflict": {
-                "symfony/console": "<6.4"
-            },
-            "require-dev": {
-                "symfony/console": "^6.4|^7.0"
-            },
-            "bin": [
-                "Resources/bin/yaml-lint"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Yaml\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Loads and dumps YAML files",
-            "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.0.3"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2024-01-23T15:02:46+00:00"
-        },
-        {
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
             "name": "theseer/tokenizer",
             "version": "1.2.2",
             "source": {
