@@ -12,3 +12,5 @@ class HomeController extends Controller
         return view('blog/home', ['articles' => Articles::orderBy('id', 'desc')->limit(3)->get()]);
     }
 }
+
+
