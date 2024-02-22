@@ -6,7 +6,6 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
-<<<<<<< HEAD
 
 /**
  * @OA\Info(title="My API", version="0.1")
@@ -28,8 +27,7 @@ use Illuminate\Routing\Controller as BaseController;
  *     description="Articles endpoints",
  * )
  */
-=======
->>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
+
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
