@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 use App\Http\Controllers\admin\ArticlesAdmController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\LoginController;
@@ -8,6 +9,8 @@ use App\Http\Controllers\ArtigosController;
 use App\Http\Controllers\EnviaEmailController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\QuemSomosController;
+=======
+>>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/artigos', [ArticlesController::class, 'index']);
@@ -39,4 +43,8 @@ Route::middleware('validaLogin')->group(function(){
     Route::get('/admin/mail', [EnviaEmailController::class, 'index']);
 
 
+=======
+Route::get('/', function () {
+    return view('welcome');
+>>>>>>> 590ddf35bbda3ade42f4bd51bf7322d09291a5f5
 });
